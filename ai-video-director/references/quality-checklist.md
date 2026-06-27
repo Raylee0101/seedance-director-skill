@@ -1,6 +1,6 @@
 # Quality Checklist
 
-Use this before returning a Seedance prompt.
+Use this before returning an AI video prompt.
 
 ## Copyability
 

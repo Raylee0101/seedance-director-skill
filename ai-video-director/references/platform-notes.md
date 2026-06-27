@@ -12,7 +12,7 @@ Use this file when platform behavior, references, or specs affect the prompt. Sp
 
 ## Common Capabilities To Assume
 
-Seedance-style workflows commonly include:
+Modern AI video workflows commonly include:
 
 - Text-to-video
 - Image-to-video

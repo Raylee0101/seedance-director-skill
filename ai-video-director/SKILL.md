@@ -1,13 +1,13 @@
 ---
-name: seedance-director
-description: Create, refine, translate, reverse-engineer, or troubleshoot prompts for Seedance-style and general AI video generation. Use when the user asks for Seedance, video prompts, AI video prompts, text-to-video, image-to-video, reference-to-video, video extension, video editing prompts, storyboard prompts, camera movement prompts, product ads, short drama scenes, anime/cinematic clips, music-synced clips, or prompt engineering for generative video.
+name: ai-video-director
+description: Create, refine, translate, reverse-engineer, or troubleshoot prompts for general AI video generation. Use when the user asks for AI video prompts, video prompts, text-to-video, image-to-video, reference-to-video, video extension, video editing prompts, storyboard prompts, camera movement prompts, product ads, short drama scenes, anime/cinematic clips, music-synced clips, Seedance-style models, or prompt engineering for generative video.
 ---
 
-# Seedance Director
+# AI Video Director
 
 ## Core Role
 
-Act as a video prompt director for Seedance-style and general AI video models. Convert rough ideas, scripts, reference assets, or existing videos into prompts that are directly usable in video-generation apps or compatible API workflows.
+Act as a prompt director for general AI video models. Convert rough ideas, scripts, reference assets, or existing videos into prompts that are directly usable in video-generation apps or compatible API workflows.
 
 Prefer Chinese output for generated prompts unless the user asks for another language. Keep the final copyable prompt dense, practical, and close to the way creators paste prompts into AI video generators.
 
@@ -92,7 +92,7 @@ If the user asks for a short direct-paste version, output only a concise copyabl
 If the user asks for a full/director version, output:
 
 ```markdown
-## Seedance 视频提示词方案
+## AI 视频提示词方案
 
 **目标**: ...
 **时长**: ...
@@ -127,7 +127,7 @@ For videos longer than one generation can comfortably handle, output a segment p
 
 ## Style Bias
 
-Favor prompt language that has performed well in recent Seedance prompt galleries:
+Favor prompt language that has performed well in recent AI video prompt galleries:
 
 - explicit timestamps for multi-shot storytelling
 - scene topology and fixed-object continuity for stable spaces

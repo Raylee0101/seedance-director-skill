@@ -1,6 +1,6 @@
 # Prompt Patterns
 
-Use this file when drafting a Seedance prompt, especially for multimodal references, long scenes, ads, drama, anime, or edits.
+Use this file when drafting an AI video prompt, especially for multimodal references, long scenes, ads, drama, anime, or edits.
 
 ## Universal Formula
 

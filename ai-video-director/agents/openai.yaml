@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Video Director"
+  short_description: "Direct controllable AI video prompts."
+  default_prompt: "Use $ai-video-director to write a cinematic AI video prompt with stable scene structure and character performance."
