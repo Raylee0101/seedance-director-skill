@@ -1,4 +1,4 @@
 interface:
   display_name: "Seedance Director"
-  short_description: "Direct controllable Seedance video prompts."
-  default_prompt: "Use $seedance-director to write a cinematic Seedance prompt with stable scene structure and character performance."
+  short_description: "Direct controllable AI video prompts."
+  default_prompt: "Use $seedance-director to write a cinematic AI video prompt with stable scene structure and character performance."

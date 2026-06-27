@@ -14,9 +14,9 @@ For realistic video prompts, expand the formula to:
 
 Do not let professional terms become decoration. Each term must control something visible.
 
-## Jimeng Short Prompt
+## Direct-Paste Short Prompt
 
-Use when the user asks for 即梦短句版, direct paste, concise version, or when the idea is simple.
+Use when the user asks for a direct-paste prompt, concise version, short Chinese version, or when the idea is simple.
 
 ```text
 [时长]，[比例]，[真实/动画/广告/短剧风格]。[场景结构固定：前景...，中景...，远景...，左侧...，右侧...，固定不动...，可运动...]。[主体表演：姿态、步态、视线、手部、表情、衣料/发丝运动]。[镜头从...开始，以...方式运动，只因镜头移动逐渐显露更多细节]。[专业画面控制：20mm广角/35mm自然视角/85mm长焦、空气透视、丁达尔效应、真实景深等]。禁止...

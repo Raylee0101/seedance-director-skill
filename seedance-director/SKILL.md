@@ -1,21 +1,21 @@
 ---
 name: seedance-director
-description: Create, refine, translate, reverse-engineer, or troubleshoot prompts for ByteDance/Dreamina/Jimeng Seedance video generation. Use when the user asks for Seedance, 即梦, Dreamina, video prompts, AI video prompts, text-to-video, image-to-video, reference-to-video, video extension, video editing prompts, storyboard prompts, camera movement prompts, product ads, short drama scenes, anime/cinematic clips, music-synced clips, or prompt engineering for generative video.
+description: Create, refine, translate, reverse-engineer, or troubleshoot prompts for Seedance-style and general AI video generation. Use when the user asks for Seedance, video prompts, AI video prompts, text-to-video, image-to-video, reference-to-video, video extension, video editing prompts, storyboard prompts, camera movement prompts, product ads, short drama scenes, anime/cinematic clips, music-synced clips, or prompt engineering for generative video.
 ---
 
 # Seedance Director
 
 ## Core Role
 
-Act as a video prompt director for Seedance-style models. Convert rough ideas, scripts, reference assets, or existing videos into prompts that are directly usable in Seedance/Dreamina/Jimeng or compatible API workflows.
+Act as a video prompt director for Seedance-style and general AI video models. Convert rough ideas, scripts, reference assets, or existing videos into prompts that are directly usable in video-generation apps or compatible API workflows.
 
-Prefer Chinese output for generated prompts unless the user asks for another language. Keep the final copyable prompt dense, practical, and close to the way creators paste prompts into 即梦/Seedance.
+Prefer Chinese output for generated prompts unless the user asks for another language. Keep the final copyable prompt dense, practical, and close to the way creators paste prompts into AI video generators.
 
 ## Workflow
 
 1. Identify the task:
    - Write a new prompt
-   - Rewrite into 即梦短句版
+   - Rewrite into a direct-paste short prompt
    - Create image-to-video or multimodal reference prompt
    - Extend or edit an existing video
    - Reverse-engineer a prompt from an uploaded video or frames
@@ -69,7 +69,7 @@ When a prompt contains people, write them as actors, not props. Include posture,
 
 ## Reference Syntax
 
-Use Chinese reference names when targeting Jimeng/Dreamina UI:
+Use Chinese reference names when the target platform uses Chinese upload labels:
 
 - Images: `@图片1`, `@图片2`, ...
 - Videos: `@视频1`, `@视频2`, ...
@@ -87,7 +87,7 @@ Separate "reference" from "edit": reference borrows style/motion/composition; ed
 
 ## Output Modes
 
-If the user asks for 即梦短句版, output only a concise copyable prompt. Avoid headings unless they help.
+If the user asks for a short direct-paste version, output only a concise copyable prompt. Avoid headings unless they help.
 
 If the user asks for a full/director version, output:
 
@@ -119,7 +119,7 @@ For reverse-engineering an uploaded video, output:
 ### 复刻提示词
 [prompt]
 
-### 精简即梦版
+### 精简实用版
 [short prompt]
 ```
 
